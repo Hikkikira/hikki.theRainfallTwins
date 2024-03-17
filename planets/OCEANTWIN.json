@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ocean Twin",
+	"AmbientLights" :[{"intensity" : 0.8}],
+	"Atmosphere" :
+	{
+		"size" : 200,
+		"fogSize" : 200,
+		"hasOxygen" : false,
+		"hasTrees" : false,
+		"hasRain" : true,
+		"useAtmosphereShader" : true
+	},
+	"Base" : 
+    {
+        "surfaceSize" : 75,
+		"groundSize" : 40,
+        "surfaceGravity" : 24,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true,
+		"hasAmbientLight" : true
+    },
+	"Orbit" : 
+    {
+        "semiMajorAxis" : 500,
+        "inclination" : 10,
+        "primaryBody" : "The Rainfall Twins",
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 10,
+        "trackingOrbitLine" : false,
+        "showOrbitLine" : true,
+		"trueAnomaly" : 90
+    },
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {}
+}

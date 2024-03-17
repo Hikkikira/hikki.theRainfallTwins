@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "The Rainfall Twins",
+	"FocalPoint": {
+		"primary": "Tundra Twin",
+		"secondary": "Ocean Twin"
+	},
+	"Orbit" : 
+    {
+        "semiMajorAxis" : 7000,
+        "inclination" : 10.0,
+        "primaryBody" : "Sun",
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0.6,
+        "argumentOfPeriapsis": 90,
+        "trackingOrbitLine" : false,
+		"isTidallyLocked" : true,
+        "showOrbitLine" : true,
+		"trueAnomaly" : 180
+    },
+	"ReferenceFrame": {
+		"bracketRadius": 0.0,
+		"enabled": false
+	},
+	"ShipLog": {}
+}
